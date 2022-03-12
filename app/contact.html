@@ -1,0 +1,106 @@
+@@include('header.htm')
+
+
+<main>
+
+  @@include('blocks/page-header.htm', {"title": "contact"})
+
+  <section class="section pb-0">
+    <div class="container container-delta">
+
+      <div class="row mb-5">
+        <div class="col-xl-6 col-lg-8 mx-auto text-start text-lg-center">
+          <div class="section-title mb-0">
+            <p class="subtitle">We Are the pioneer</p>
+            <h1 class="title text-xl mb-3">Schedule a Demo</h1>
+            <p>Please note: If you need to make a payment or need a copy of a receipt, please call 877-735-2910 and
+              select Option 1.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-7 order-1 order-lg-0">
+          <form method="POST" class="rounded-md shadow-md p-4 p-md-5" action="#!">
+            <div class="form-group mb-3">
+              <label class="fw-600 text-dark mb-1" for="fname">Full Name</label>
+              <input class="form-control text-dark shadow-none" type="text" placeholder="Jack Barker" id="fname"
+                required>
+            </div>
+            <div class="form-group mb-3">
+              <label class="fw-600 text-dark mb-1" for="email">Email Address</label>
+              <input class="form-control text-dark shadow-none" type="email" placeholder="example@domain.io" id="email"
+                required>
+            </div>
+            <div class="form-group mb-3">
+              <label class="fw-600 text-dark mb-1" for="website">Website</label>
+              <input class="form-control text-dark shadow-none" type="url" placeholder="Website">
+            </div>
+            <div class="form-group mb-3">
+              <label class="fw-600 text-dark mb-1" for="message">Message</label>
+              <textarea class="form-control text-dark shadow-none" name="comment" rows="5" id="message" required
+                placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Submit Now</button>
+          </form>
+        </div>
+        <div class="col-xl-4 col-lg-5 mb-5 mb-lg-0 order-0 order-lg-1">
+          <div class="ps-lg-4">
+
+
+            <div class="mb-4">
+              <h5 class="font-secondary"><i class="fas fa-info-circle text-primary"></i>&nbsp; Our Contact Info</h5>
+
+              <ul class="list-unstyled check-list mb-0">
+
+                <li class="position-relative">
+                  <i class="fas fa-check"></i><a href="mailto:thedelta@gmail.com">thedelta@gmail.com</a>
+                </li>
+
+                <li class="position-relative">
+                  <i class="fas fa-check"></i>(207) 555-0119
+                </li>
+
+                <li class="position-relative">
+                  <i class="fas fa-check"></i>3891 Ranchview Dr. Richardson Main Road Near Amazon, California 62639
+                </li>
+
+              </ul>
+            </div>
+
+
+
+
+
+            <div>
+              <h5 class="font-secondary"><i class="fas fa-info-circle text-primary"></i>&nbsp; Why Delta?</h5>
+
+              <ul class="list-unstyled check-list mb-0">
+
+                <li class="position-relative">
+                  <i class="fas fa-check-circle"></i>Focus critical developer resources on your core business
+                </li>
+
+                <li class="position-relative">
+                  <i class="fas fa-check-circle"></i>Launch new products faster with less payments code
+                </li>
+
+                <li class="position-relative">
+                  <i class="fas fa-check-circle"></i>Improve conversion from international customers
+                </li>
+
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  @@include('blocks/call-to-action-2.htm')
+</main>
+<main class="pt-0"></main>
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')
